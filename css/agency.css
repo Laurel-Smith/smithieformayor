@@ -270,7 +270,7 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
@@ -629,7 +629,7 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
-  display: block;
+  display: inline-block;
   background-color: #222222;
   height: 40px;
   width: 40px;

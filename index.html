@@ -5,18 +5,42 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- Bootstrap -->
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+
+	<link href='http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600' rel='stylesheet'>
 
 	<style>
+		/* http://smithieformayor.com/image/header/
+		html {
+			background: url(img/header-NewYorkSkyline_9.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 
 	body {
 		padding-top: 20px;
-	}
+		font-size: 16px;
+			font-family: "Open Sans",serif;
+		background: transparent;
+		}
 
-	.margin-base-vertical {
-		margin: 40px 0;
-	}
+		h1 {
+			font-family: "Abel", Arial, sans-serif;
+			font-weight: 400;
+			font-size: 40px;
+	        }
+		
+		/* Override B3 .panel adding a subtly transparent background */
+		.panel {
+			background-color: rgba(255, 255, 255, 0.9);
+		}	
 
-	</style>
+	        .margin-base-vertical {
+		 margin: 40px 0;
+                }
+
+	 </style>
 
 </head>
 <body>
@@ -48,9 +72,9 @@
 					I trust SMITHIE to ReBuildNewYork!  What about you?
 				</p>
 
-				<form action="/mailing-list" method="post" class="margin-base-vertical">
+				<form class="margin-base-vertical">
 					<p class="input-group">
-						<span class="input-group-addon">@</span>
+						<span class="input-group-addon"><span class="icon-envelope"></span></span>
 						<input type="text" class="form-control input-lg" name="twitter" placeholder="@rebuildusatoday" />
 					</p>
 					<p class="help-block text-center"><small>Follow, tell friends, colleagues, family and co-workers about SMITHIE.</small></p>
@@ -60,9 +84,12 @@
 					</span>
 				</form>
 
-			</div>
+			<div class="margin-base-vertical">
+					<small class="text-muted"><a href="http://www.smithieformayor.com/images/header-NewYorkSkyline_9.jpg"/">Campaign landing page paid for by ReBuildUSAtoday</a></small>
 		</div>
-	</div>
+	    </div><!-- //main content -->
+        </div><!-- //row -->
+     </div> <!-- //container -->
 
 </body>
 </html>
